@@ -1,0 +1,411 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+/* header styling  */
+#header{
+    color: rgba(0, 0, 0, 1);
+    /* border: 2px solid red;  */
+    padding: 20px 10px 20px 5px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    /* justify-content: space-around; */
+    box-shadow: 3px 3px rgb(145, 145, 145);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* nav container styling */
+.brand-details{
+    display: flex;
+    
+}
+.ohmy_food{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid blue; */
+    display: none;
+    width: 100px;   
+}
+.brand-name{
+    margin-left: 0px;
+    /* border: 2px solid red; */
+    font-size: 12px;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+}
+/* email-tel styling  */
+.email-tel{
+    display: none;
+}
+/* social logo styling */
+.social-logo{
+    display: none;
+}
+.ellipse{
+    padding: 10px;
+    /* border: 3px solid red; */
+    text-align: center;
+    justify-content: center;
+    border-radius: 150px;
+    margin: 5px;
+}
+.ellipse:hover{
+    background-color: red;
+}
+.fa-brands{
+    color: rgb(98, 98, 233);
+}
+/* hamburger button styling */
+.hamburger{
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
+    margin-left: 20px;    
+}
+.change .bar1{
+    -webkit-transform: rotate(-45deg); translate(-5px,5px);
+    transform: rotate(-45deg) translate(-5px,5px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    -webkit-transform: rotate(45deg);translate(-8px,-8px);
+    transform: rotate(45deg) translate(-8px,-8px);
+}
+.bar1,.bar2,.bar3{
+    width: 30px;
+    height: 4px;
+    background-color: rgb(21, 20, 20);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+/* modal box */
+#innexbar{
+    display: none;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(234, 231, 227);
+}
+.innexlink{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid rgb(217, 189, 189);
+}
+/* illustration styling  */
+.illustration{
+    /* border: 5px solid yellow; */
+    text-align: center;
+}
+/* section-background image styling */
+.section-bkgroundimg{
+    /* border: 5px solid blue; */
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 80px;   
+}
+.online-tuition-heading{
+    /* border: 2px solid red; */
+    font-size: 2vh;
+    text-align: center;
+}
+.online-learning,.what-to-do{
+    /* border: 4px solid green; */
+    margin-top: 20px;
+    
+}
+.learning-headings,.what-to-do-headings{
+    font-size: 1.5vh;
+    padding-bottom: 20px;
+    
+}
+.mark-classinfo{
+    display: flex;
+    padding: 0px 0px 10px 0px;
+    font-size: 1vh;
+}
+.classinfo{
+    margin-left: 18px;
+}
+.class-describe{
+    line-height: 16px;
+    font-size: 1.3vh;
+    margin-top: 20px;
+}
+.what-info{
+    line-height: 16px;
+    font-size: 1.3vh;
+}
+.howmuch-heading{
+    padding: 20px 0px 20px 0px;
+}
+.howmuch-info{
+    font-size: 1.5vh;
+    line-height: 24px;
+}
+.guidelines-info{
+    /* border: 4px solid red; */
+    padding: 20px;
+}
+/* section guidelines styling */
+.guidelines-headings,.form-heading{
+    font-size: 2vh;
+    text-align: center;
+}
+.safeguard-settingup-delivery{
+    /* border: 4px solid purple; */
+    margin-top: 14px;
+}
+.sageguarding-box,.settingup-box,
+.delivery-box{
+    /* border: 3px solid green; */
+    margin-bottom: 30px;
+}
+.light-info{
+    display: flex;
+    font-size: 1.2vh;
+    line-height: 14px;
+}
+.safeguarding-headings,.settingup-headings,
+.delivery-headings{
+    padding-bottom: 18px;
+}
+.smart-resource-container{
+    /* border: 3px solid red; */
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+    
+}
+.smart-resource{
+    border: none;
+    height: 60px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 12px;
+    background-color: rgb(142, 238, 228);
+}
+.smart-pdf{
+    color: rgb(117, 22, 241);
+}
+.form-section{
+    /* border: 4px solid rgb(23, 237, 216); */
+    padding: 20px;
+    margin-bottom: 70px;
+}
+#form{
+    border: 3px solid ;
+    margin-top: 20px;   
+}
+.formData{
+    padding: 15px;
+}
+.label{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#message{
+    height: 150px;
+}
+.text-control{
+    height: 40px;
+    width: 250px;
+}
+.name-error,.email-error,.tel-error,
+.message-error,.term-error{
+    color: red;
+    display: none;
+}
+.btn-submit{
+    /* border: 3px solid red; */
+    padding: 20px;
+    width: 200px;
+    border-radius: 15px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: blue;
+    
+}
+.submit-button{
+    /* border: 3px solid; */
+    text-align: center;
+    margin-top: 20px;
+}
+#footer{
+    /* border: 2px solid blue;  */
+    padding: 20px 0px 50px 20px;
+    background-color: rgba(53, 53, 53, 1);
+}
+.smart-brand2{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+.tel-container{
+    display: flex;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.tel-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;  
+    color: white;
+}
+.tel-number{
+    padding-top: 5px;
+    font-size: 16px;
+    color: white;
+}
+.aboutBox,.ourAccommodationsBox,.assistanceBox{
+    margin: 14px 0px 40px 0px;
+    color: white;
+}
+.aboutBox{
+   margin: 30px 0px 40px 0px; ;
+}
+.about,.ourAccommodations,.assistance{
+    margin: 0px 0px 15px 0px;
+    font-size: 14px;
+    font-weight: 800;
+}
+.infoDetail{
+    margin: 0px 0px 8px 0px;
+    font-size: 12px;
+}
+@media only screen and (min-width: 768px){
+    nav{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    .brand-details{
+        display: flex;
+    }
+    .ohmy_food{
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 2px solid blue; */
+        display: block;
+        width: 100px;   
+    }
+    .brand-name{
+        margin-left: 0px;
+    }
+    /* email-tel styling  */
+    .email-tel{
+        display: block;
+    }
+    .email-info,.contact-info{
+        display: flex;
+    }
+    .social-logo{
+        display: flex;
+    }
+    /* hamburger button styling */
+    .hamburger{
+        display: none;
+    } 
+    /* section-background image styling */
+    .section-bkgroundimg{
+        /* border: 5px solid blue; */
+        padding: 20px;
+        margin-bottom: 30px;
+        margin-top: 70px;
+    }
+    .onlinelearning-whatdo{
+        /* border: 5px solid blue; */
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        padding-top: 0px;
+        margin-bottom: 30px;
+    }
+    .online-learning,.what-to-do{
+        /* border: 4px solid green; */
+        margin-top: 0px;
+        max-width: 400px;   
+    }
+    .class-describe{
+        /* border: 2px solid red; */
+        max-width: 700px;
+    }
+    .safeguard-settingup-delivery{
+        /* border: 4px solid blue; */
+        display: flex;
+        justify-content: space-around;
+    }
+    .sageguarding-box,.settingup-box,
+    .delivery-box{
+        /* border: 3px solid rgb(128, 0, 111); */
+        margin-bottom: 10px;
+        max-width: 250px;
+    }
+    .form-subbox{
+        border: 3px solid ;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .text-control{
+        height: 70px;
+        width: 600px;
+    }
+    #footer{
+        /* border: 2px solid blue;  */
+        padding: 20px 0px 50px 40px;
+        background-color: rgba(53, 53, 53, 1);
+    }
+    .footer-subbox{
+        border: none;
+        margin: 20px 0px 0px 0px;
+        padding: 0px 0px 30px 0px;
+        display: flex;
+        /*margin-left: 30px;*/
+    }
+    .aboutBox{
+        margin: 14px 0px 0px 0px;
+    }
+    .ourAccommodationsBox,.assistanceBox{
+        margin: 14px 0px 0px 70px;
+    }
+       
+}
+
+@media only screen and (min-width: 943px){
+
+       
+}
